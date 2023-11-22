@@ -79,7 +79,7 @@ input {
     position: relative;
 }
 #password {
-    padding-right: 30px; /* Espaço para o ícone do olho */
+    padding-right: 30px; 
 }
 
 #icon {

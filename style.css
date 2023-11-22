@@ -160,27 +160,27 @@ main {
 
 .console-images a {
     display: inline-block;
-    margin: 0 20px 10px; /* Espaçamento entre as imagens e os nomes */
-    text-align: center; /* Centralizar o conteúdo */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: #333; /* Altera a cor do texto dos links */
-    transition: transform 0.3s; /* Adiciona transição para a escala */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0); /* Efeito de sombra inicial (sem sombra) */
-    border: 2px solid #ccc; /* Adiciona uma linha fina ao redor da imagem */
+    margin: 0 20px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    color: #333; 
+    transition: transform 0.3s; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0); 
+    border: 2px solid #ccc; 
     padding: 40px;
 }
 
 .console-images a:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Efeito de sombra ao passar o mouse */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 .console-images img {
-    width: 200px; /* Tamanho médio-grande (ajuste conforme necessário) */
-    height: auto; /* Para manter a proporção original da imagem */
+    width: 200px; 
+    height: auto; 
    }
 
 .console-images p {
-    font-weight: bold; /* Negrito para destacar o nome */
+    font-weight: bold; 
 }
 
 .redes-sociais{

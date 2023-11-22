@@ -60,15 +60,15 @@ nav a {
     width: 100;
 }
 
-/* Movendo a imagem para a esquerda e adicionando margem à direita */
+
 .game-details img {
     width: 300px;
     margin-left: 150px;
     height: auto;
-    margin-right: 20px; /* Adicionando margem à direita da imagem */
+    margin-right: 20px; 
 }
 
-/* Ajustando estilos do texto e do preço à direita da imagem */
+
 .game-details .game-info {
     display: flex;
     flex-direction: column;
@@ -123,8 +123,8 @@ button:hover {
 .game img {
     width: 200px;
     height: auto;
-    border: 1px solid #ddd; /* Adiciona uma borda sutil às imagens */
-    border-radius: 4px; /* Adiciona bordas arredondadas */
+    border: 1px solid #ddd;
+    border-radius: 4px; 
 }
 
 
@@ -133,7 +133,7 @@ button:hover {
     padding: 10px;
 }
 
-/* Estilo adicional para tornar a aparência mais agradável */
+
 .game-info h3 {
     margin: 0;
     font-size: 16px;

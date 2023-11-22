@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Gameshare/aluguel/playstantion.css">
+    <title>Aluguel de Jogo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/Gameshare/index.html">Início</a></li>
+                <li><a href="/Gameshare/login/login.html">Login</a></li>
+                <li><a href="/Gameshare/contato/contato.html">Contato</a></li>
+                <li><a href="/Gameshare/carrinho/carrinho.html">Quem somos</a></li>
+            </ul>
+        </nav>
+        <h1>GameShare</h1>
+    </header>
+    <div class="redes-sociais">
+        <p>Compartilhe-nos em suas redes sociais</p>
+    <img src="/Gameshare/imagens/facebook.png" alt="Compartilhar no Facebook" onclick="compartilharNoFacebook()">
+    <img src="/Gameshare/imagens/twitter.png" alt="Compartilhar no Twitter" onclick="compartilharNoTwitter()">
+    <img src="/Gameshare/imagens/instagram.png" alt="Compartilhar no Instagram" onclick="compartilharNoInstagram()">
+    </div>
+
+    <!-- Inclua as bibliotecas do Facebook e Twitter SDKs -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0"></script>
+    <script async defer src="https://platform.twitter.com/widgets.js"></script>
+
+
+<section>
+    <div class="game-details-container">
+        <h2>Detalhes do Jogo</h2>
+        <div class="game-details" id="game-details">
+        
+        </div>
+    </div>
+
+
+
+<div class="date-selector-container">
+    <h2>Selecione as datas de aluguel</h2>
+    <div>
+        <label for="DataDeInicio">Data de Início:</label>
+        <input type="date" id="DataDeInicio" min="" required>
+    </div>
+    <div>
+        <label for="DataDeFim">Data de Fim:</label>
+        <input type="date" id="DataDeFim" min="" required>
+    </div>
+    <div>
+        <label for="PrecoTotal">Preço Total:</label>
+        <span id="PrecoTotal">R$ 0,00</span>
+    </div>
+    <button onclick="calcularPreco()">Calcular Preço</button>
+</div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

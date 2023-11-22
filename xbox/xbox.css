@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:30%;
+
+    
+}
+.game-details-container h2{
+    text-align: center;
+}
+
+.game{
+    background-color: white;
+    margin: 20px;
+}
+
+.game-details {
+    display: flex;
+    width: 100;
+}
+
+/* Movendo a imagem para a esquerda e adicionando margem à direita */
+.game-details img {
+    width: 300px;
+    margin-left: 150px;
+    height: auto;
+    margin-right: 20px; /* Adicionando margem à direita da imagem */
+}
+
+/* Ajustando estilos do texto e do preço à direita da imagem */
+.game-details .game-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.game-details .game-info h3{
+    text-align: center;
+    font-size: 30px;
+}
+.game-details .game-info p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.date-selector-container{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input, button {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.game {
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px;
+}
+.game:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.game img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ddd; /* Adiciona uma borda sutil às imagens */
+    border-radius: 4px; /* Adiciona bordas arredondadas */
+}
+
+
+
+.game .game-info {
+    padding: 10px;
+}
+
+/* Estilo adicional para tornar a aparência mais agradável */
+.game-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.game-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+
+

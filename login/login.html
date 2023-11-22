@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Gameshare/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/Gameshare/index.html">Início</a></li>
+                <li><a href="/Gameshare/login/login.html">Login</a></li>
+                <li><a href="/Gameshare/contato/contato.html">Contato</a></li>
+                <li><a href="/Gameshare/carrinho/carrinho.html">Quem somos</a></li>
+            </ul>
+        </nav>
+        <h1>GameShare</h1>
+    </header>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            
+                <div class="input-group">
+                   <label for="password">Senha:</label>
+                        <div class="password-container">
+                            <input type="password" name="" maxlength="8" id="password">
+                                <div id="icon" onclick="showHide()"></div>
+                                    <script src="/Gameshare/loguin.js"></script>
+                        </div>
+                </div>
+
+            <button class="login-button">Entrar</button>
+            <a href="/Gameshare/login/login.html" class="forgot-password">Esqueceu sua senha?</a>
+            <div class="separator"></div>
+           
+           <a href="https://www.facebook.com/?locale=pt_BR"> <button class="social-login facebook">
+                <img src="/Gameshare/login/imagens/Fac.png" alt="logo facebook">
+                Login com Facebook</button> </a>
+
+            <a href="https://mail.google.com/mail/u/0/#search/steam"> <button class="social-login google">
+                <img src="/Gameshare/login/imagens/Gog.png" alt="logo google">
+                Login com Google</button> </a>
+            <p>Não tem uma conta? <a href="/Gameshare/login/Cadastro/Cadastro.html">Cadastre-se</a></p>
+        </div>
+    </div>
+</body>
+</html>
